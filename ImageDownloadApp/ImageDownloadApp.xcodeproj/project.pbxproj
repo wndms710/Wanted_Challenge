@@ -18,8 +18,7 @@
 		4193281A29A356FA007650AA /* ImageDownloadAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193281929A356FA007650AA /* ImageDownloadAppUITests.swift */; };
 		4193281C29A356FA007650AA /* ImageDownloadAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193281B29A356FA007650AA /* ImageDownloadAppUITestsLaunchTests.swift */; };
 		4193839C29A35D0100417EDE /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193839B29A35D0100417EDE /* ImageData.swift */; };
-		4193839E29A35FCA00417EDE /* ImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4193839D29A35FCA00417EDE /* ImageResponse.swift */; };
-		41DDA96D29ACCF63009FF74E /* ImageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DDA96C29ACCF63009FF74E /* ImageDataManager.swift */; };
+		41F11F9629ADB1AF0026EB78 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F11F9529ADB1AF0026EB78 /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +54,7 @@
 		4193281929A356FA007650AA /* ImageDownloadAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadAppUITests.swift; sourceTree = "<group>"; };
 		4193281B29A356FA007650AA /* ImageDownloadAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4193839B29A35D0100417EDE /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
-		4193839D29A35FCA00417EDE /* ImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResponse.swift; sourceTree = "<group>"; };
-		41DDA96C29ACCF63009FF74E /* ImageDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataManager.swift; sourceTree = "<group>"; };
+		41F11F9529ADB1AF0026EB78 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +109,7 @@
 				4193839829A35C0800417EDE /* Model */,
 				4193839929A35C1300417EDE /* View */,
 				4193839A29A35C1E00417EDE /* Controller */,
+				41F11F9429ADB1980026EB78 /* Extension */,
 				419327FB29A356F7007650AA /* Main.storyboard */,
 				4193280329A356F9007650AA /* LaunchScreen.storyboard */,
 				4193280129A356F9007650AA /* Assets.xcassets */,
@@ -150,8 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				4193839B29A35D0100417EDE /* ImageData.swift */,
-				4193839D29A35FCA00417EDE /* ImageResponse.swift */,
-				41DDA96C29ACCF63009FF74E /* ImageDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +166,14 @@
 				419327F929A356F7007650AA /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		41F11F9429ADB1980026EB78 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				41F11F9529ADB1AF0026EB78 /* UIImageView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,10 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F11F9629ADB1AF0026EB78 /* UIImageView.swift in Sources */,
 				419327FA29A356F7007650AA /* ViewController.swift in Sources */,
 				4193280029A356F7007650AA /* ImageDownloadApp.xcdatamodeld in Sources */,
-				4193839E29A35FCA00417EDE /* ImageResponse.swift in Sources */,
-				41DDA96D29ACCF63009FF74E /* ImageDataManager.swift in Sources */,
 				419327F629A356F7007650AA /* AppDelegate.swift in Sources */,
 				4193839C29A35D0100417EDE /* ImageData.swift in Sources */,
 				419327F829A356F7007650AA /* SceneDelegate.swift in Sources */,
